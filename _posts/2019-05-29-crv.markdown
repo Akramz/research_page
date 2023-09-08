@@ -1,15 +1,12 @@
 ---
 layout: post
-title:  "Direct Fitting of Gaussian Mixture Models"
-date:   2019-05-29 22:21:59 +00:00
-image: /images/crv19.png
+title:  "Big Data Analytics for Climate-Resilient Food Supply Chains: Opportunities and Way Forward"
+date: 2022-09-30 22:21:59 +00:00
+image: /images/supply_chains.jpeg
 categories: research
-author: "Leo Keselman"
-authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
-venue: "Computer and Robot Vision Conference"
-arxiv: https://arxiv.org/abs/1904.05537
-slides: /pdfs/crv19-slides.pdf
-code: https://github.com/leonidk/direct_gmm
+authors: "Navin Kumar C Twarakavi, Kamal Das, <strong>Akram Zaytar</strong>, Fred Otieno, Jitendra Singh, Bruno Silva, Komminist Weldemariam, Shantanu Godbole"
+venue: "Data Science in Agriculture and Natural Resource Management"
+arxiv: https://www.researchgate.net/publication/355182200_Big_Data_Analytics_for_Climate-Resilient_Food_Supply_Chains_Opportunities_and_Way_Forward
 ---
 
-A formulation for fitting Gaussian Mixture Models (GMMs) directly to geometric objects, such as a triangular mesh. This method produces more robust results and produces an improvement in 3D registration for both meshes and RGB-D frames. 
+Traditional agricultural practices face increasing risks due to the changing climate and more frequent extreme events, making traditional food production forecasts unreliable. We introduce a methodology that merges seasonal weather predictions, geo-spatial data from remote sensing, extreme event risks, and crop growth models to assess regional production risks. This approach was successfully validated across multiple seasons in several Iowa counties.

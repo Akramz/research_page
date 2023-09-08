@@ -1,14 +1,11 @@
 ---
 layout: post
-title:  "Venue Analytics: A Simple Alternative to Citation-Based Metrics"
-date:   2019-06-04 22:21:59 +00:00
-image: /images/jcdl2019.png
+title:  "Improving sub-seasonal to seasonal forecast using a time-series transformer"
+date:   2022-12-12
+image: /images/s2s.png
 categories: research
-author: "Leo Keselman"
-authors: "<strong>Leonid Keselman</strong>"
-venue: "ACM/IEEE Joint Conference on Digital Libraries"
-arxiv: https://arxiv.org/abs/1904.12573
-slides: /pdfs/jcdl2019.pdf
-code: https://github.com/leonidk/venue_scores
+authors: "Daniel Salles Civitarese, <strong>Akram Zaytar</strong>, Etienne Eben Vos, Johannes Schmude, Bianca Zadrozny, Campbell Watson."
+venue: "American Geophysical Union Fall Meeting"
+abstract: https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1158112
 ---
-A bibliometric/scientometric project. Our main two results are a method of assigning value to all venues in computer science and a method to organize them into distinct subfields, all without using citation data. The resulting venue scores can be used to rank universities' by scholarly output, and produce a responsive author-level metric.
+Sub-seasonal to seasonal (S2S) forecasting for temperature and precipitation faces challenges in accuracy. Leveraging attention-based transformer models can refine these forecasts, making them more reliable. We implemented a modified Temporal Fusion Transformer (TFT) that integrates multi-horizon sequences, spatiotemporal data, and ECMWF ensemble embeddings, enabling the model to adjust forecasts using past observations. Evaluations revealed the TFT outperformed the ECMWF S2S ensemble and recent climatology, demonstrating heightened sensitivity to climate anomalies.
